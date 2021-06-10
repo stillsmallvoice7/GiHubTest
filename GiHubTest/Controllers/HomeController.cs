@@ -21,6 +21,7 @@ namespace GiHubTest.Controllers
         public IActionResult Index()
         {
             string kika = String.Empty;
+            kika += "Hello";
             return View();
         }
 
